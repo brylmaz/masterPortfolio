@@ -19,8 +19,8 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Barış YILMAZ",
-  logo_name: "Barış Yılmaz",
+  title: "Baris YILMAZ",
+  logo_name: "Baris YILMAZ",
   nickname: "brylmaz",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
