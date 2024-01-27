@@ -19,9 +19,9 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Baris YILMAZ",
-  logo_name: "Baris YILMAZ",
-  nickname: "brylmaz",
+  title: "Ashutosh Hathidara",
+  logo_name: "AshutoshHathidara",
+  nickname: "layman_brother",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
