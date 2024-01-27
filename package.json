@@ -1,7 +1,8 @@
 {
-  "private": false,
+  "private": true,
   "name": "masterPortfolio",
   "homepage": ".",
+  "proxy": "http://localhost:3001",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
