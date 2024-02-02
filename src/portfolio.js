@@ -2,14 +2,15 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
   title: "Barış Yılmaz",
   description:
-    "3 yıllık PHP tabanlı full-stack geliştirme deneyimine sahip, Symfony, Laravel, CodeIgniter gibi frameworklerle entegre projeler ve web siteleri geliştirmiş yazılım geliştirici. PHP, MySQL, PostgreSQL, HTML, CSS, JavaScript konularında güçlü bilgi birikimine ek olarak, Docker, Jenkins gibi araçları etkili bir şekilde kullanma becerisiyle projelere değer katıyorum.",
+  "Software Engineer",
+    //"3 yıllık PHP tabanlı full-stack geliştirme deneyimine sahip, Symfony, Laravel, CodeIgniter gibi frameworklerle entegre projeler ve web siteleri geliştirmiş yazılım geliştirici. PHP, MySQL, PostgreSQL, HTML, CSS, JavaScript konularında güçlü bilgi birikimine ek olarak, Docker, Jenkins gibi araçları etkili bir şekilde kullanma becerisiyle projelere değer katıyorum.",
   og: {
     title: "Barış YILMAZ Portfolio",
     type: "website",
@@ -23,7 +24,8 @@ const greeting = {
   logo_name: "Baris Yilmaz",
   nickname: "brylmaz",
   subTitle:
-    "3 yıllık PHP tabanlı full-stack geliştirme deneyimine sahip, Symfony, Laravel, CodeIgniter gibi frameworklerle entegre projeler ve web siteleri geliştirmiş yazılım geliştirici. PHP, MySQL, PostgreSQL, HTML, CSS, JavaScript konularında güçlü bilgi birikimine ek olarak, Docker, Jenkins gibi araçları etkili bir şekilde kullanma becerisiyle projelere değer katıyorum.",
+  "Software Engineer",  
+  //"3 yıllık PHP tabanlı full-stack geliştirme deneyimine sahip, Symfony, Laravel, CodeIgniter gibi frameworklerle entegre projeler ve web siteleri geliştirmiş yazılım geliştirici. PHP, MySQL, PostgreSQL, HTML, CSS, JavaScript konularında güçlü bilgi birikimine ek olarak, Docker, Jenkins gibi araçları etkili bir şekilde kullanma becerisiyle projelere değer katıyorum.",
   resumeLink:
     "",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -87,7 +89,7 @@ const skills = {
           "⚡ Karmaşık uygulamaları desteklemek için güçlü backend sistemler geliştirme",
           "⚡ Sorunsuz veri yönetimi için etkili veritabanı yapıları uygulama",
           "⚡ Yüksek trafik yüklerini yönetmek üzere sunucu performansını optimize etme",
-          "⚡ Frontend ve backend arasında sorunsuz iletişim için RESTful API'lar tasarlama ve uygulama",
+          "⚡ Frontend ve backend arasında sorunsuz iletişim için RESTful & XML & SOAP API'lar tasarlama ve uygulama",
           "⚡ Uygulama işlevselliğini artırmak için üçüncü taraf hizmetleri ve API'ları entegre etme",
           "⚡ Sürdürülebilir kod tabanı için düzenli kod incelemeleri yapma ve en iyi uygulamaları uygulama",
           "⚡ Sorunsuz işleyişi sağlamak için backend sorunlarını tespit etme ve giderme",
@@ -97,45 +99,41 @@ const skills = {
         {
           skillName: "PHP",
           fontAwesomeClassname: "simple-icons:php",
-          style: {
-            backgroundColor: "transparent",
-          },
+          
         },
         {
           skillName: "Symfony",
           fontAwesomeClassname: "simple-icons:symfony",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
+          
         },
         {
           skillName: "Laravel",
           fontAwesomeClassname: "simple-icons:laravel",
-          style: {
-            backgroundColor: "transparent",
-          },
+          
         },
         {
           skillName: "Codeigneter",
-          fontAwesomeClassname: "simple-icons:codeigneter",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
+          fontAwesomeClassname: "simple-icons:codeigniter",
+          
         },
         {
           skillName: "Nginx",
           fontAwesomeClassname: "simple-icons:nginx",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
+        
         },
         {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+        
+        },
+        {
+          skillName: "RabbitMQ",
+          fontAwesomeClassname: "simple-icons:rabbitmq",
+        },
+/*         {
           skillName: "Backend",
           imageSrc: "deeplearning_ai_logo.png",
-        },
+        }, */
       ],
     },
     {
@@ -227,16 +225,12 @@ const skills = {
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
+          
         },
         {
           skillName: "Jenkins",
           fontAwesomeClassname: "simple-icons:jenkins",
-          style: {
-            color: "#326CE5",
-          },
+          
         },
       ],
     },
@@ -269,7 +263,7 @@ const skills = {
 };
 
 // Education Page
-const competitiveSites = {
+/* const competitiveSites = {
   competitiveSites: [
     {
       siteName: "LeetCode",
@@ -320,35 +314,35 @@ const competitiveSites = {
       profileLink: "https://www.kaggle.com/laymanbrother",
     },
   ],
-};
+}; */
 
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "Istanbul Üniversitesi",
+      subtitle: "Finans Yönetimi",
+      logo_path: "iu_enstitu.svg",
+      alt_name: "İşletme İktisadı Enstitüsü",
+      duration: "2023 - 2025",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://isletmeiktisadi.istanbul.edu.tr/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
+      title: "Istanbul Esenyurt Üniversitesi",
+      subtitle: "Bilgisayar Mühendisliği",
       logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      alt_name: "Mühendislik ve Mimarlık Fakültesi",
+      duration: "2018 - 2022",
       descriptions: [
         "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
         "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
         "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.esenyurt.edu.tr/",
     },
   ],
 };
