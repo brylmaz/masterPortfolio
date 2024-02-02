@@ -7,13 +7,13 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Barış Yılmaz",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "3 yıllık PHP tabanlı full-stack geliştirme deneyimine sahip, Symfony, Laravel, CodeIgniter gibi frameworklerle entegre projeler ve web siteleri geliştirmiş yazılım geliştirici. PHP, MySQL, PostgreSQL, HTML, CSS, JavaScript konularında güçlü bilgi birikimine ek olarak, Docker, Jenkins gibi araçları etkili bir şekilde kullanma becerisiyle projelere değer katıyorum.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Barış YILMAZ Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://brylmaz.xyz/",
   },
 };
 
@@ -23,11 +23,11 @@ const greeting = {
   logo_name: "Baris Yilmaz",
   nickname: "brylmaz",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "3 yıllık PHP tabanlı full-stack geliştirme deneyimine sahip, Symfony, Laravel, CodeIgniter gibi frameworklerle entegre projeler ve web siteleri geliştirmiş yazılım geliştirici. PHP, MySQL, PostgreSQL, HTML, CSS, JavaScript konularında güçlü bilgi birikimine ek olarak, Docker, Jenkins gibi araçları etkili bir şekilde kullanma becerisiyle projelere değer katıyorum.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  githubProfile: "https://github.com/brylmaz",
 };
 
 const socialMediaLinks = [
@@ -42,43 +42,37 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/brylmaz",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/brylmaz/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:brylmaz52@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/brylmaz",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/brylmaz/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/brylmaz/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -87,57 +81,69 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Back End Development",
       fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+      skills: [    
+          "⚡ Karmaşık uygulamaları desteklemek için güçlü backend sistemler geliştirme",
+          "⚡ Sorunsuz veri yönetimi için etkili veritabanı yapıları uygulama",
+          "⚡ Yüksek trafik yüklerini yönetmek üzere sunucu performansını optimize etme",
+          "⚡ Frontend ve backend arasında sorunsuz iletişim için RESTful API'lar tasarlama ve uygulama",
+          "⚡ Uygulama işlevselliğini artırmak için üçüncü taraf hizmetleri ve API'ları entegre etme",
+          "⚡ Sürdürülebilir kod tabanı için düzenli kod incelemeleri yapma ve en iyi uygulamaları uygulama",
+          "⚡ Sorunsuz işleyişi sağlamak için backend sorunlarını tespit etme ve giderme",
+          "⚡ En son backend teknolojileriyle güncel kalarak projelere entegre etme ve işlevselliği artırma."
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "PHP",
+          fontAwesomeClassname: "simple-icons:php",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Symfony",
+          fontAwesomeClassname: "simple-icons:symfony",
           style: {
             backgroundColor: "white",
             color: "#D00000",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Codeigneter",
+          fontAwesomeClassname: "simple-icons:codeigneter",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
         },
         {
-          skillName: "Deeplearning",
+          skillName: "Nginx",
+          fontAwesomeClassname: "simple-icons:nginx",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Backend",
           imageSrc: "deeplearning_ai_logo.png",
         },
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Front End Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Javascript ve Jquery kullanarak (responsive) web sitesi ön yüzü oluşturma",
+        "⚡ Mobil uygulama geliştirme, Bireysel Android uygulamaları oluşturma",
       ],
       softwareSkills: [
         {
@@ -170,45 +176,19 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Jquery",
+          fontAwesomeClassname: "simple-icons:jquery",
           style: {
-            color: "#61DAFB",
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
           },
         },
       ],
@@ -217,38 +197,17 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Birden fazla bulut platformunda çalışma deneyimi",
+        "⚡ Sanal makine örneklerinde web sitelerini barındırma ve veritabanı entegrasyonu",
+        "⚡ AWS üzerinde veritabanından sunucuya veya tersi yönde akış işlerini kurma",
+        "⚡ Linux, Ubuntu üzerinde çalışma deneyimi",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
           },
         },
         {
@@ -273,8 +232,8 @@ const skills = {
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "Jenkins",
+          fontAwesomeClassname: "simple-icons:jenkins",
           style: {
             color: "#326CE5",
           },
@@ -285,9 +244,9 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Mobil ve web uygulamaları için son derece çekici kullanıcı arayüzü tasarlama",
+        "⚡ Logo tasarımlarını özelleştirme ve sıfırdan logo oluşturma",
+        "⚡ Uygulama işlevselliğinin akışını oluşturarak kullanıcı deneyimini optimize etme"
       ],
       softwareSkills: [
         {
@@ -302,20 +261,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:figma",
           style: {
             color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
