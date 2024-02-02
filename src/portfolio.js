@@ -14,7 +14,7 @@ const seo = {
   og: {
     title: "Barış YILMAZ Portfolio",
     type: "website",
-    url: "http://brylmaz.xyz/",
+    url: "https://brylmaz.xyz/",
   },
 };
 
@@ -24,7 +24,7 @@ const greeting = {
   logo_name: "Baris Yilmaz",
   nickname: "brylmaz",
   subTitle:
-  "Software Engineer",  
+  "Software Engineer / Back End Developer",  
   //"3 yıllık PHP tabanlı full-stack geliştirme deneyimine sahip, Symfony, Laravel, CodeIgniter gibi frameworklerle entegre projeler ve web siteleri geliştirmiş yazılım geliştirici. PHP, MySQL, PostgreSQL, HTML, CSS, JavaScript konularında güçlü bilgi birikimine ek olarak, Docker, Jenkins gibi araçları etkili bir şekilde kullanma becerisiyle projelere değer katıyorum.",
   resumeLink:
     "",
@@ -316,6 +316,10 @@ const skills = {
   ],
 }; */
 
+ const competitiveSites = {
+  
+}; 
+
 const degrees = {
   degrees: [
     {
@@ -334,7 +338,7 @@ const degrees = {
     {
       title: "Istanbul Esenyurt Üniversitesi",
       subtitle: "Bilgisayar Mühendisliği",
-      logo_path: "iu_logo.png",
+      logo_path: "iesu-logo.png",
       alt_name: "Mühendislik ve Mimarlık Fakültesi",
       duration: "2018 - 2022",
       descriptions: [
@@ -347,7 +351,7 @@ const degrees = {
   ],
 };
 
-const certifications = {
+/* const certifications = {
   certifications: [
     {
       title: "Machine Learning",
@@ -458,6 +462,10 @@ const certifications = {
       color_code: "#4285F499",
     },
   ],
+}; */
+
+const certifications = {
+  
 };
 
 // Experience Page
@@ -473,37 +481,37 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Back End Developer",
+          company: "ATG Turkey",
+          company_url: "https://atgturkey.com/",
+          logo_path: "atgturkey.png",
+          duration: "Mayıs 2023 - ∞",
+          location: "Beyoğlu, İstanbul",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
+            "Ana proje kapsamında projenin (havayolu, otel, araç kiralama) şirketlerine entegrasyon yapılması,(THY, Pegasus, Webbeds, Ratehawk ...) geliştirilmesi ve gerekli hataların giderilmesi ile sorumluyum. Proje kapsamında kullandığım teknolojiler; PHP(8.2), Symfony 6, Docker, Mysql, Redis, RabbitMQ, Rest API ve Soap(XML)",
+          //color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Full Stack Developer",
+          company: "Pera Group",
+          company_url: "",
+          logo_path: "stockcompany.jpeg",
+          duration: "Aralık 2021 - Mayıs 2023 (1 yıl 6 ay)",
+          location: "Şişli, İstanbul",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
+            "Çağrı merkezi çalışanlarının kullandığı CRM projesini ve müşterilerin kullanması için mobil uygulama geliştirme süreçlerinde yer alıyorum. Codeigniter ve Mysql kullanarak geliştirmelere devam ediyoruz.",
+          //color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Full Stack Developer",
+          company: "Kolayetic Yazılım Sistemleri Tic. LTD. ŞTİ",
+          company_url: "https://kolayetic.com/",
+          logo_path: "kolayetic.png",
+          duration: "Mayıs 2021 - Aralık 2021 (8 Ay)",
+          location: "Esenler, İstanbul",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+            "Entegrasyon projesi kapsamında PHP ile MVC mimarisi kullanarak backend geliştiriyorum ve projeye katkı sağlıyorum. aynı zamanda html-css-jquery-ajax-bootstrap kullandım önyüz için, veritabanı olarak MYSQL ile çalıştım ve projenin ilerlemesinde katkı sağladım ve hataların çözümünde rol aldım.",
+          //color: "#fc1f20",
         },
       ],
     },
@@ -511,45 +519,33 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          title: "Software Developer Intern",
+          company: "Aynı Fikir Bilişim",
+          company_url: "https://www.aynifikir.com/",
+          logo_path: "aynifikir.png",
+          duration: "Şubat 2021 - Nisan 2021 (2 Ay)",
+          location: "Şişli, İstanbul",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
+            "Çeşitli firmaların web siteleri yapımında ve yine müşteri istekleri doğrultusunda sitede yapılması istenen revizeleri yaptığım ve web sitelerinin gelişimine katkı sundum. kullandığım teknolojiler ; PHP, MYSQL bootstrap, javascript",
+          //color: "#000000",
         },
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Software Developer Intern",
+          company: "Workcube Türkiye",
+          company_url: "https://www.workcube.com/",
+          logo_path: "W3_logo.png",
+          duration: "Aralık 2020 - Şubat 2021 (2 Ay)",
+          location: "Kadıköy, İstanbul",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
+            "Adobe Coldfusion dili kullanarak projede hata çözümleri, iyileştirmeler ve geliştirme süreçlerinde bulundum. ilişkisel veri tabanı olarak MSSQL kullanıldımAdobe",
+          //color: "#ee3c26",
         },
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
-        {
+/*         {
           title: "Google Explore ML Facilitator",
           company: "Google",
           company_url: "https://about.google/",
@@ -604,7 +600,7 @@ const experience = {
           description:
             "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
           color: "#181717",
-        },
+        }, */
       ],
     },
   ],
