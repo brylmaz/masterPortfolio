@@ -317,7 +317,7 @@ const skills = {
 }; */
 
  const competitiveSites = {
-  
+  competitiveSites: []
 }; 
 
 const degrees = {
@@ -377,7 +377,7 @@ const experience = {
   title: "Deneyim",
   subtitle: "Çalışma ve Staj",
   description:
-    "Merhaba dünya! bir yazılımcı olarak edindiğim deneyimleri sizinle paylaşmaktan heyecan duyuyorum. Birçok farklı projede çalıştım ve bu süreçte karşılaştığım sorunlar, öğrendiklerim ve projelerim hakkındaki düşüncelerimi burada bulabilirsiniz. Yazılım dünyasında geçirdiğim zaman içinde edindiğim bilgileri, sıkıntıları ve keyifli anları sizinle paylaşarak birlikte öğrenmek ve büyümek istiyorum.  ",
+    "Merhaba dünya! Bir yazılımcı olarak edindiğim deneyimleri sizinle paylaşmaktan heyecan duyuyorum. Birçok farklı projede çalıştım ve bu süreçte karşılaştığım sorunlar zaman içinde edindiğim bilgiler bana tecrübe kazandırdı.",
   header_image_path: "experience.svg",
   sections: [
     {
