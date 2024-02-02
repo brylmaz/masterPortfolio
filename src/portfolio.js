@@ -28,7 +28,7 @@ const greeting = {
   //"3 yıllık PHP tabanlı full-stack geliştirme deneyimine sahip, Symfony, Laravel, CodeIgniter gibi frameworklerle entegre projeler ve web siteleri geliştirmiş yazılım geliştirici. PHP, MySQL, PostgreSQL, HTML, CSS, JavaScript konularında güçlü bilgi birikimine ek olarak, Docker, Jenkins gibi araçları etkili bir şekilde kullanma becerisiyle projelere değer katıyorum.",
   resumeLink:
     "",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  portfolio_repository: "https://github.com/brylmaz",
   githubProfile: "https://github.com/brylmaz",
 };
 
@@ -104,31 +104,45 @@ const skills = {
         {
           skillName: "Symfony",
           fontAwesomeClassname: "simple-icons:symfony",
+          style:{
+            color:"#787CB4",
+          }
           
         },
         {
           skillName: "Laravel",
           fontAwesomeClassname: "simple-icons:laravel",
-          
+          style:{
+            color:"#F34E38",
+          }
         },
         {
           skillName: "Codeigneter",
           fontAwesomeClassname: "simple-icons:codeigniter",
-          
+          style:{
+            color:"#E84121",
+          }
         },
         {
           skillName: "Nginx",
           fontAwesomeClassname: "simple-icons:nginx",
-        
+          style:{
+            color:"#019237",
+          }
         },
         {
           skillName: "Redis",
           fontAwesomeClassname: "simple-icons:redis",
-        
+          style:{
+            color:"#F53426",
+          }
         },
         {
           skillName: "RabbitMQ",
           fontAwesomeClassname: "simple-icons:rabbitmq",
+          style:{
+            color:"#F86201",
+          }
         },
 /*         {
           skillName: "Backend",
@@ -168,26 +182,17 @@ const skills = {
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
+          
         },
         {
           skillName: "Jquery",
           fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
+          
         },
         {
           skillName: "Bootstrap",
           fontAwesomeClassname: "simple-icons:bootstrap",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
+          
         },
       ],
     },
