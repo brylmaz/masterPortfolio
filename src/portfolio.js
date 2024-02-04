@@ -167,7 +167,7 @@ const skills = {
         },
         {
           skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          fontAwesomeClassname: "simple-icons:css3",
           style: {
             color: "#1572B6",
           },
@@ -237,7 +237,7 @@ const skills = {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
-            color: "#47A248",
+            color: "#4479A1",
           },
         },
         {
@@ -475,10 +475,10 @@ const experience = {
         },
       ],
     },
-    {
+    /* {
       title: "Volunteerships",
       experiences: [
-/*         {
+         {
           title: "Google Explore ML Facilitator",
           company: "Google",
           company_url: "https://about.google/",
@@ -533,9 +533,9 @@ const experience = {
           description:
             "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
           color: "#181717",
-        }, */
+        }, 
       ],
-    },
+    }, */
   ],
 };
 
