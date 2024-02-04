@@ -182,17 +182,23 @@ const skills = {
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
-          
+          style:{
+            color: "#F7DF1E"
+          }
         },
         {
           skillName: "Jquery",
           fontAwesomeClassname: "simple-icons:jquery",
-          
+          style: {
+            color: "#0769AD"
+          }
         },
         {
           skillName: "Bootstrap",
           fontAwesomeClassname: "simple-icons:bootstrap",
-          
+          style: {
+            color: "#7952B3"
+          }
         },
       ],
     },
@@ -217,7 +223,7 @@ const skills = {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
-            color: "#336791",
+            color: "#4169E1",
           },
         },
         {
@@ -228,18 +234,36 @@ const skills = {
           },
         },
         {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
-          
+          style: {
+            color: "#2496ED"
+          }
         },
         {
           skillName: "Jenkins",
           fontAwesomeClassname: "simple-icons:jenkins",
-          
+          style: {
+            color: "#D24939"
+          }
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#FCC624"
+          }
         },
       ],
     },
-    {
+    /* {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
@@ -263,7 +287,7 @@ const skills = {
           },
         },
       ],
-    },
+    }, */
   ],
 };
 
@@ -321,7 +345,7 @@ const skills = {
   ],
 }; */
 
- const competitiveSites = {
+const competitiveSites = {
   competitiveSites: []
 }; 
 
