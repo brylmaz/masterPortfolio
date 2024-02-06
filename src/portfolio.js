@@ -13,7 +13,7 @@ const seo = {
     //"3 yıllık PHP tabanlı full-stack geliştirme deneyimine sahip, Symfony, Laravel, CodeIgniter gibi frameworklerle entegre projeler ve web siteleri geliştirmiş yazılım geliştirici. PHP, MySQL, PostgreSQL, HTML, CSS, JavaScript konularında güçlü bilgi birikimine ek olarak, Docker, Jenkins gibi araçları etkili bir şekilde kullanma becerisiyle projelere değer katıyorum.",
   og: {
     title: "Barış YILMAZ Portfolio",
-    type: "website",
+    type: "Barış YILMAZ Personal Portfolio Website",
     url: "https://brylmaz.xyz/",
   },
 };
@@ -602,12 +602,12 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    title: "İletişim",
+    profile_image_path: "profilo.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Sosyal medyadan bana mesaj atabilirsiniz, mail adresim ile de iletişime geçebilirsiniz. En geç 24 saat içinde cevap vereceğim. Yazılım, teknoloji alanında olan ilgim ve bilgi birikimim ile bana danışabilirsiniz.",
   },
-  blogSection: {
+/*   blogSection: {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
@@ -615,7 +615,7 @@ const contactPageData = {
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
+    title: "",
     subtitle:
       "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
     locality: "Kanodar",
@@ -625,7 +625,7 @@ const contactPageData = {
     streetAddress: "Ambavadi vas",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
-  },
+  }, */
   phoneSection: {
     title: "",
     subtitle: "",
