@@ -12,17 +12,6 @@ import "./assests/font-awesome/css/all.css";
 
 const engine = new Styletron();
 
-
-App.use((err, req, res, next) => {
-  if (err instanceof URIError) {
-    console.warn('Kötü URL yakalandı:', req.url);
-    return res.status(400).send('Geçersiz istek');
-  }
-
-  // Diğer hataları sıradaki error handler’a ilet
-  next(err);
-});
-
 ReactDOM.render(
   <StyletronProvider value={engine}>
     <BaseProvider theme={LightTheme}>

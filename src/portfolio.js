@@ -14,7 +14,7 @@ const seo = {
   og: {
     title: "Barış YILMAZ Portfolio",
     type: "Barış YILMAZ Personal Portfolio Website",
-    url: "https://brylmaz.xyz/",
+    url: "https://brylmaz.com/",
   },
 };
 
