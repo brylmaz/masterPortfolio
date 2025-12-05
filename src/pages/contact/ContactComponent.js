@@ -57,7 +57,7 @@ class Contact extends Component {
           </Fade>
           <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div">
-              <div className="blog-heading-text-div">
+              {/* <div className="blog-heading-text-div">
                 <h1 className="blog-heading-text" style={{ color: theme.text }}>
                   {blogSection["title"]}
                 </h1>
@@ -75,7 +75,7 @@ class Contact extends Component {
                     theme={theme}
                   />
                 </div>
-              </div>
+              </div> */}
               <div className="blog-heading-img-div">
                 {/* <img
 											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
