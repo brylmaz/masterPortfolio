@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Barış YILMAZ",
   description:
-    "I am a passionate software developer with strong problem-solving skills and a continuous drive to learn and adapt to new technologies. Tackling complex challenges and finding efficient solutions has always been my greatest motivation.",
+    "Software Engineer / Back End Developer",
   og: {
     title: "Barış YILMAZ",
     type: "website",
@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "Barış YILMAZ",
   nickname: "brylmaz",
   subTitle:
-    "I am a passionate software developer with strong problem-solving skills and a continuous drive to learn and adapt to new technologies. Tackling complex challenges and finding efficient solutions has always been my greatest motivation.",
+    "Software Engineer / Back End Developer",
   //resumeLink: "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/brylmaz/masterPortfolio",
+  //portfolio_repository: "https://github.com/brylmaz/masterPortfolio",
   githubProfile: "https://github.com/brylmaz",
 };
 
@@ -86,14 +86,19 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-  title: "Backend Development",
+  title: "Back End Development",
   fileName: "BackendImg",
   skills: [
-    "⚡ PHP ile yüksek performanslı ve ölçeklenebilir backend uygulamaları geliştirme",
-    "⚡ RESTful ve SOAP servisler ile entegrasyonlar ve API geliştirme",
-    "⚡ Symfony ve Laravel gibi modern PHP framework'leri ile uygulama geliştirme deneyimi",
+    "⚡ Karmaşık uygulamaları desteklemek için güçlü backend sistemler geliştirme",
+    "⚡ Sorunsuz veri yönetimi için etkili veritabanı yapıları uygulama",
+    "⚡ Yüksek trafik yüklerini yönetmek üzere sunucu performansını optimize etme",
     "⚡ PostgreSQL, MySQL gibi veritabanları ile kompleks sorgular ve optimizasyon",
     "⚡ Redis ve RabbitMQ gibi teknolojilerle caching ve mesajlaşma altyapılarının kurulumu",
+    "⚡ Frontend ve backend arasında sorunsuz iletişim için RESTful & XML & SOAP API'lar tasarlama ve uygulama",
+    "⚡ Uygulama işlevselliğini artırmak için üçüncü taraf hizmetleri ve API'ları entegre etme",
+    "⚡ Sürdürülebilir kod tabanı için düzenli kod incelemeleri yapma ve en iyi uygulamaları uygulama",
+    "⚡ Sorunsuz işleyişi sağlamak için backend sorunlarını tespit etme ve giderme",
+    "⚡ En son backend teknolojileriyle güncel kalarak projelere entegre etme ve işlevselliği artırma."
   ],
   softwareSkills: [
     {
@@ -372,7 +377,7 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "İstanbul Üniversitesi-Cerrahpaşa",
+      title: "İstanbul Üniversitesi-Cerrahpaşa (Yüksek Lisans)",
       subtitle: "Finans Yönetimi",
       logo_path: "logo_tr_eng-a4-40.png",
       alt_name: "İstanbul Üniversitesi",
@@ -381,11 +386,19 @@ const degrees = {
         "⚡ Finansal yönetim, mali analiz, yatırım araçları ve muhasebe konularında kapsamlı bir eğitim alıyorum.",
         "⚡ Ekonomi, istatistik ve işletme yönetimi gibi temel alanlarda teorik bilgileri pratikle birleştirerek analiz yapma yeteneğimi geliştirdim.",
         "⚡ Yazılım geliştirici olarak sahip olduğum teknik becerileri finansal analiz süreçlerine entegre ederek veri odaklı yaklaşımlar geliştiriyorum.",
+        "⚡ Eğitim: Finans yönetimi bölümünden aldığım eğitimle, finansal hesaplamalar, yatırım analizi, finansal raporlama gibi temel konularda geniş bir bilgi tabanına sahibim",
+        "⚡ Maliyet Muhasebesi: Maliyet muhasebesi konularında uzmanlık kazandım. Şirketlerin maliyet yapılarını analiz ederek, etkin maliyet kontrolü ve bütçe yönetimi konularında deneyim sahibiyim.",
+        "⚡ Finansal Analiz: Finansal tabloları yorumlama, finansal oran analizi ve trend analizi konularında yetkinlik kazandım. Şirket performansını değerlendirme ve geleceğe dönük finansal tahminler yapabilme becerisine sahibim.",
+        "⚡ Risk Yönetimi: Finansal piyasalardaki riskleri değerlendirme ve etkili bir şekilde yönetme konusunda bilgi sahibiyim. Hedge yöntemleri ve finansal türev araçları konusunda deneyimim bulunmaktadır.",
+        "⚡ Portföy Yönetimi: Yatırım portföylerini oluşturma, yönetme ve optimize etme konularında bilgi ve deneyim sahibiyim. Finansal enstrümanların performansını değerlendirme ve portföy çeşitlendirmesi konularında uzmanlığa sahibim.",
+        "⚡ İleri Excel Becerileri: Finansal modeller oluşturma, veri analizi ve raporlama konularında ileri düzeyde Excel becerilerine sahibim. Bu sayede finansal verileri etkili bir şekilde analiz edebilirim.",
+        "⚡ Uluslararası Finans: Uluslararası finans piyasaları, döviz kurları ve uluslararası finansal yönetim konularında bilgi sahibiyim. Global ekonomik faktörlerin finansal stratejilere etkilerini değerlendirme yeteneğine sahibim.",
+        "⚡ İş Etik ve Hukuk: Finans sektöründeki etik standartlarını bilmek ve iş hukuku konularında bilgi sahibi olmak, karar süreçlerinde adil ve yasal bir çerçevede hareket etmemi sağlar."  
       ],
       website_link: "https://www.iuc.edu.tr/tr/_",
     },
     {
-      title: "İstanbul Esenyurt Üniversitesi",
+      title: "İstanbul Esenyurt Üniversitesi (Lisans)",
       subtitle: "Bilgisayar Mühendisliği",
       logo_path: "emyjxq7cgdfy4-esenyurt-universitesi-logo.png",
       alt_name: "İstanbul Esenyurt Üniversitesi",
@@ -394,6 +407,16 @@ const degrees = {
         "⚡ Algoritmalar, veri yapıları, nesne yönelimli programlama, veritabanı yönetimi ve yazılım mühendisliği gibi temel mühendislik derslerini başarıyla tamamladım.",
         "⚡ PHP, Java ve C# gibi dillerle projeler geliştirdim; bitirme projemde web tabanlı bir uygulama üzerine çalıştım.",
         "⚡ Öğrenim sürecimde hem teorik bilgi hem de pratik proje deneyimi kazanarak backend geliştirici olarak kariyerime sağlam bir temel oluşturdum.",
+        "⚡ Eğitim: Bilgisayar mühendisliği alanında aldığım eğitimle, temel bilgisayar bilimleri, yazılım mühendisliği, ağlar, veri yapıları gibi konularda geniş bir bilgi tabanına sahibim.",
+        "⚡ Programlama Dilleri: Çeşitli programlama dillerinde yetkinlik kazandım. Bu diller arasında C++, Java, Python ve web tabanlı teknolojilerle ilgili deneyimlerim bulunmaktadır.",
+        "⚡ Web Geliştirme: Web teknolojilerine olan ilgimle birlikte HTML, CSS ve JavaScript gibi temel web dillerinde uzmanlık kazandım. Ayrıca, popüler web framework'leri ve kütüphaneleriyle projeler geliştirdim.",
+        "⚡ Veritabanları: Veritabanı tasarımı ve yönetimi konusunda deneyimlerimle SQL dilini etkili bir şekilde kullanabilirim. Ayrıca, NoSQL veritabanlarına olan aşinalığım da bulunmaktadır.",
+        "⚡ Yazılım Mimarisi: Büyük ölçekli yazılım projelerinde çalışma deneyimimle, yazılım mimarisi, tasarım desenleri ve modüler programlama konularında bilgi sahibiyim.",
+        "⚡ Ağlar ve Güvenlik: Ağ teknolojileri, TCP/IP protokolü, güvenlik prensipleri ve uygulamaları hakkında bilgi sahibiyim. Bu alandaki güncel gelişmeleri takip etmekteyim.",
+        "⚡ Proje Yönetimi: Bilgisayar mühendisliği projelerini planlama, geliştirme ve yönetme konusunda tecrübelerim var. Proje yönetimi süreçlerini etkin bir şekilde uygulayabilirim.",
+        "⚡ Sürekli Öğrenme: Hızla değişen teknoloji dünyasında sürekli öğrenmeye ve kendimi geliştirmeye önem veririm. Yeni teknolojilere uyum sağlama konusundaki esnekliğimle bilgilerimi güncel tutarım.",
+        "⚡ Bu noktalardan hareketle, bilgisayar mühendisliği eğitimi ve profesyonel deneyimlerimle hem teorik bilgi hem de pratik uygulama konularında geniş bir yelpazede yetkinlik kazandım."
+      
       ],
       website_link: "https://www.esenyurt.edu.tr/",
     }
@@ -515,162 +538,79 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  title: "Deneyim",
+  subtitle: "Çalışma ve Staj",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    " Merhaba dünya! Bir yazılımcı olarak edindiğim deneyimleri sizinle paylaşmaktan heyecan duyuyorum. Birçok farklı projede çalıştım ve bu süreçte karşılaştığım sorunlar zaman içinde edindiğim bilgiler bana tecrübe kazandırdı.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Çalışma Hayatı",
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "Back End Developer",
+          company: "ATG Turkey",
+          company_url: "https://atgturkey.com/",
+          logo_path: "atgturkey.png",
+          duration: "Mayıs 2023 - ∞",
+          location: "Beyoğlu, İstanbul",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "Ana proje kapsamında projenin (havayolu, otel, araç kiralama) şirketlerine entegrasyon yapılması,(THY, Pegasus, Webbeds, Ratehawk ...) geliştirilmesi ve gerekli hataların giderilmesi ile sorumluyum. Proje kapsamında kullandığım teknolojiler; PHP(8.2), Symfony 6, Docker, Mysql, Redis, RabbitMQ, Rest API ve Soap(XML)",
           color: "#000000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Full Stack Developer",
+          company: "Pera Group",
+          company_url: "",
+          logo_path: "pera.jpg",
+          duration: "Aralık 2021 - Mayıs 2023 (1 Yıl 6 Ay)",
+          location: "Şişli, İstanbul",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Çağrı merkezi çalışanlarının kullandığı CRM projesini ve müşterilerin kullanması için mobil uygulama geliştirme süreçlerinde yer alıyorum. Codeigniter ve Mysql kullanarak geliştirmelere devam ediyoruz.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Full Stack Developer",
+          company: "Kolayetic Yazılım Sistemleri Tic. LTD. ŞTİ",
+          company_url: "https://kolayetic.com/",
+          logo_path: "kolayetic.png",
+          duration: "Mayıs 2021 - Aralık 2021 (8 Ay)",
+          location: "Esenler, İstanbul",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Entegrasyon projesi kapsamında PHP ile MVC mimarisi kullanarak backend geliştiriyorum ve projeye katkı sağlıyorum. aynı zamanda html-css-jquery-ajax-bootstrap kullandım önyüz için, veritabanı olarak MYSQL ile çalıştım ve projenin ilerlemesinde katkı sağladım ve hataların çözümünde rol aldım.",
           color: "#9b1578",
         },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
       ],
     },
     {
-      title: "Internships",
+      title: "Staj",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          title: "Software Developer Intern",
+          company: "Aynı Fikir Bilişim",
+          company_url: "https://www.aynifikir.com/",
+          logo_path: "aynifikir.png",
+          duration: "Şubat 2021 - Nisan 2021",
+          location: "Şişli, İstanbul",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "Çeşitli firmaların web siteleri yapımında ve yine müşteri istekleri doğrultusunda sitede yapılması istenen revizeleri yaptığım ve web sitelerinin gelişimine katkı sundum. kullandığım teknolojiler ; PHP, MYSQL bootstrap, javascript",
           color: "#000000",
         },
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Software Developer Intern",
+          company: "Workcube Türkiye",
+          company_url: "https://www.workcube.com/tr/welcome",
+          logo_path: "workcube.png",
+          duration: "Aralık 2020 - Şubat 2021",
+          location: "Kadıköy, İstanbul",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "Adobe Coldfusion dili kullanarak projede hata çözümleri, iyileştirmeler ve geliştirme süreçlerinde bulundum. ilişkisel veri tabanı olarak MSSQL kullandım",
           color: "#ee3c26",
         },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
-      ],
-    },
+
   ],
 };
 
@@ -717,33 +657,33 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    title: "İletişim",
+    profile_image_path: "baris.jpeg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Sosyal medyadan bana mesaj atabilirsiniz, mail adresim ile de iletişime geçebilirsiniz. En geç 24 saat içinde cevap vereceğim. Yazılım, teknoloji alanında olan ilgim ve bilgi birikimim ile bana danışabilirsiniz. Ayrıntılı Cv için lütfen iletişime geçin.",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
-  addressSection: {
-    title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
-  },
-  phoneSection: {
-    title: "",
-    subtitle: "",
-  },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
+  //   link: "https://blogs.ashutoshhathidara.com/",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
+  // addressSection: {
+  //   title: "Address",
+  //   subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
+  //   locality: "San Jose",
+  //   country: "USA",
+  //   region: "California",
+  //   postalCode: "95129",
+  //   streetAddress: "Saratoga Avenue",
+  //   avatar_image_path: "address_image.svg",
+  //   location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+  //},
+  // phoneSection: {
+  //   title: "",
+  //   subtitle: "",
+  // },
 };
 
 export {
